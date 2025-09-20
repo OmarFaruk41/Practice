@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .food {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.food img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* smoller devise */
+@media screen and (max-width:576px){
+    .container{
+    grid-template-columns: repeat(1,1fr);
+    }
+}
+/* mediam devise */
+@media screen and (min-width:576.1px) and (max-width: 992px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+</style>
+<body>
+    <!-- .container>.food*12>img[src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg"]+h3{food Item - $}+p{price: \$$00}+p>lorem20^btn{Buy Now} -->
+     <div class="container">
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aliquam, dicta eaque minus quos odit dolorem iure impedit veritatis. Voluptates!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 2</h3>
+            <p>price: $200</p>
+            <p>Sapiente nobis pariatur placeat natus repudiandae quas id aliquid unde vel. Maxime molestiae ut sed. Tempora laborum quasi dignissimos consequuntur?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 3</h3>
+            <p>price: $300</p>
+            <p>Saepe labore tempora, et qui, officia id quo dolore libero, exercitationem ad doloribus velit doloremque. Eius saepe optio ipsam vero.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 4</h3>
+            <p>price: $400</p>
+            <p>Distinctio corrupti hic, officia, earum odit praesentium optio itaque dolores fuga similique nam perferendis! Nulla praesentium culpa repudiandae quis labore?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 5</h3>
+            <p>price: $500</p>
+            <p>Tenetur quos, voluptatibus rerum illum quisquam a officiis assumenda officia provident? Explicabo error praesentium deserunt consequatur et ad voluptates repellat?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 6</h3>
+            <p>price: $600</p>
+            <p>Ad quae eius labore libero facilis aut itaque nihil explicabo nesciunt ipsum tempore placeat, ipsam sit voluptatibus reiciendis quas sunt!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 7</h3>
+            <p>price: $700</p>
+            <p>Maxime saepe, quae vero cumque ullam inventore pariatur corporis voluptates. Amet, at officiis? Voluptatibus expedita nemo quam corporis commodi earum!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 8</h3>
+            <p>price: $800</p>
+            <p>Dolorum, excepturi? Sint optio quidem perspiciatis aspernatur totam doloremque obcaecati voluptas, pariatur fuga reiciendis, aut eum molestias nisi cum odit!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 9</h3>
+            <p>price: $900</p>
+            <p>Voluptatem incidunt veniam distinctio quis possimus repellendus. Officia, magnam itaque. Aperiam id earum eum animi laboriosam quis odit, quisquam iusto!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 10</h3>
+            <p>price: $1000</p>
+            <p>Eveniet officia ut assumenda. Quisquam, reiciendis quos mollitia, est suscipit natus eveniet molestias dolores ullam blanditiis harum quaerat autem ex?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 11</h3>
+            <p>price: $1100</p>
+            <p>Nisi, qui deleniti consequuntur vitae earum unde voluptates minima, accusamus modi blanditiis amet sunt consectetur natus corrupti cum, aperiam asperiores.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./images/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg" alt="">
+            <h3>food Item - 12</h3>
+            <p>price: $1200</p>
+            <p>Inventore, quo quae nulla perspiciatis, beatae cumque molestias corrupti illo iure similique, ducimus earum sapiente. Non nostrum reiciendis magnam pariatur.</p>
+            <button>Buy Now</button>
+        </div>
+     </div>
+</body>
+</html>
